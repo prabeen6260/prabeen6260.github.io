@@ -25,6 +25,7 @@
     font-weight: 900;
     font-family: var(--font-roboto);
     margin-bottom: 15px;
+    z-index: 1;
 }
 
 
