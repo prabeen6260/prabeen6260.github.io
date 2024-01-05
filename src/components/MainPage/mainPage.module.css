@@ -62,18 +62,7 @@ section img{
     }
 }
 
-.blurOne{
-    position:absolute;
-    width: 50vw;
-    height: 50vw;
-    background: rgba(25, 55, 109, 0.7);
-    top: -120px;
-    left: -10vw;
-    z-index: 0;
-    min-width: 350px;
-    border-radius: 750px;
-    filter: blur(100px);
-}
+
 
 @media screen and (max-width: 830px){
     .container{
