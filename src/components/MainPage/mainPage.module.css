@@ -19,16 +19,6 @@
     z-index: 1;
 }
 
-.title{
-    font-size: 60px;
-    color: var(--color-text);
-    font-weight: 900;
-    font-family: var(--font-roboto);
-    margin-bottom: 15px;
-    z-index: 1;
-}
-
-
 .text{
     font-size: 30px;
     color: var(--color-text);
