@@ -45,7 +45,7 @@
   }
 
   .menu {
-    position: fixed;
+    position: relative;
     right: 0;
     margin-right: 10%;
     flex-direction: column;
