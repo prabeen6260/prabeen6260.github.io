@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import {Navbar} from "./components/Navbar/Navbar";
 import { MainPage } from './components/MainPage/MainPage';
 import { About } from './components/About/About';
+import { Experiece } from './components/Experience/Experience';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <MainPage/>
       <About/>
+      <Experiece/>
     </div>
   )
 }
