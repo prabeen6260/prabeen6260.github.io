@@ -21,3 +21,10 @@
   height: 100%;
   gap: 80px;
 }
+@media screen and (max-width: 830px) {
+  .containerBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
