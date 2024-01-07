@@ -16,7 +16,7 @@
 .containerBox {
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
 }
 .skillsContainer {
   display: flex;

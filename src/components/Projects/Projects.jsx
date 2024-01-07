@@ -1,6 +1,17 @@
 import React from "react";
-import { getUrl } from "../../utils";
+import { ProjectCard } from "./ProjectCard";
+import projectData from "../../data/projects.json";
+import styles from "./projects.module.css";
 
 export const Projects = () => {
-  return <section></section>;
+  return (
+    <section className={styles.container}>
+      <h2 className={styles.title}>Projects</h2>
+      <div className={styles.containerBox}>
+        {projectData.map((data, id) => {
+          return <ProjectCard key={id} data={data} />;
+        })}
+      </div>
+    </section>
+  );
 };
