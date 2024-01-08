@@ -46,7 +46,7 @@ export const Contact = () => {
             placeholder="Your Message...."
             required
           ></textarea>
-          <button className={styles.submitBtn} type="submit" onClick={() => {}}>
+          <button className={styles.submitBtn} type="submit">
             Submit
           </button>
         </form>
