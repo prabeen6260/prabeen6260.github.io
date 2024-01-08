@@ -1,1 +1,106 @@
 @import "../../vars.css";
+
+.container {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  background-color: var(--color-dark);
+  color: var(--color-text);
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+.title {
+  font-size: 65px;
+  font-weight: 700;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gmail {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 300;
+  font-size: 25px;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#linkedin,
+#github,
+#instagram,
+#twitter {
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+#linkedin {
+  background-color: #0077b5;
+}
+#linkedin:hover {
+  box-shadow: 2px 2px 20px 5px #0077b5;
+}
+#github {
+  color: green;
+  background-color: rgb(30, 30, 30);
+}
+#github:hover {
+  box-shadow: 2px 2px 20px 5px rgb(109, 108, 108);
+}
+#instagram {
+  background-color: #d42287;
+}
+#instagram:hover {
+  box-shadow: 2px 2px 20px 5px #c13584;
+}
+#twitter {
+  background-color: rgb(30, 30, 30);
+}
+#twitter:hover {
+  box-shadow: 2px 2px 20px 5px rgb(109, 108, 108);
+}
+.rightContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.formBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 0;
+}
+.name {
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.email {
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.textBox {
+  height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.submitBtn {
+  background-color: var(--color-primary);
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: var(--color-text);
+}
