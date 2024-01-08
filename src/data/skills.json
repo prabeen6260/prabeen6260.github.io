@@ -28,6 +28,10 @@
     "imageSrc": "experience/c++.png"
   },
   {
+    "title": "Java",
+    "imageSrc": "experience/java.png"
+  },
+  {
     "title": "Python",
     "imageSrc": "experience/python.png"
   }

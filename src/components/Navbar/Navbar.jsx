@@ -15,9 +15,7 @@ export const Navbar = () => {
         <img
           className={styles.menuBtn}
           src={
-            menuOpen
-              ? getUrl("nav/closeIcon.png")
-              : getUrl("nav/menuIcon.png")
+            menuOpen ? getUrl("nav/closeIcon.png") : getUrl("nav/menuIcon.png")
           }
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -30,10 +28,10 @@ export const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
             <a href="#about">Contact</a>

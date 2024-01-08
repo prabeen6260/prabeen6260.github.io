@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 
 export const Contact = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="contact">
       <div className={styles.leftContainer}>
         <h3 className={styles.title}>Contact</h3>
         <a className={styles.gmail} href="mailto:prabingiri922@gmail.com">

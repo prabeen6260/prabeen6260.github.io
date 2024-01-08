@@ -3,7 +3,7 @@
     "title": "Drum Machine",
     "imageSrc": "projects/drum.jpg",
     "description": "This is a digital drum app made using React.js.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["React.js", "CSS", "HTML"],
     "demo": "https://prabeen6260.github.io/drum-machine",
     "source": "https://github.com/prabeen6260/drum-machine"
   },
@@ -11,7 +11,7 @@
     "title": "React Calculator",
     "imageSrc": "projects/calculator.jpg",
     "description": "This is a digital Calculator app  designed to provide users with a user-friendly interface for performing basic arithmetic operations",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": ["React.js", "HTML", "CSS"],
     "demo": "https://prabeen6260.github.io/react-calculator/",
     "source": "https://github.com/prabeen6260/react-calculator"
   },
@@ -19,7 +19,7 @@
     "title": "Task Management App",
     "imageSrc": "projects/clock.jpg",
     "description": "This is a task management app",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["Javascript", "HTML", "CSS"],
     "demo": "https://prabeen6260.github.io/Task-Management/",
     "source": "https://github.com/prabeen6260/Task-Management"
   }
