@@ -1,7 +1,47 @@
-import React from "react";
+import React,{useState} from "react";
 import styles from "./contact.module.css";
+import axios from "axios";
 
 export const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const handleName=(e)=>{
+    setName(e.target.value)
+  }
+  const handleEmail=(e)=>{
+    setEmail(e.target.value)
+  }
+  const handleMessage=(e)=>{
+    setMessage(e.target.value)
+  }
+  const handleSubmit = async(e)=>{
+    e.preventDefault();
+    const formData = {
+      name: name,
+      email: email,
+      message: message
+    }
+    try{
+      const response = await axios.post("http://localhost:3000/message",formData);
+      if(response.status===200){
+        setName("");
+        setEmail("");
+        setMessage("");
+        alert("Message submitted successfully");
+        console.log("working");
+      }
+    }
+    catch(err){
+      console.error(err);
+    }
+  }
+
+
+
+
+
+
   return (
     <section className={styles.container} id="contact">
       <div className={styles.leftContainer}>
@@ -28,25 +68,31 @@ export const Contact = () => {
         </div>
       </div>
       <div className={styles.rightContainer}>
-        <form className={styles.formBox}>
+        <form className={styles.formBox} action="/message" method="post">
           <input
             className={styles.name}
             type="text"
             placeholder="Your Name"
             required
+            name="name"
+            onChange={handleName}
           ></input>
           <input
             className={styles.email}
             type="email"
             placeholder="Your Email"
             required
+            name="email"
+            onChange={handleEmail}
           ></input>
           <textarea
             className={styles.textBox}
             placeholder="Your Message...."
             required
+            name="message"
+            onChange={handleMessage}
           ></textarea>
-          <button className={styles.submitBtn} type="submit">
+          <button className={styles.submitBtn} onClick={handleSubmit}>
             Submit
           </button>
         </form>
