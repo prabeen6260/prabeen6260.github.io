@@ -24,7 +24,7 @@ export const Contact = () => {
     }
     try{
       const response = await axios.post("http://localhost:3000/message",formData);
-      if(response.status===200){
+      if(response){
         setName("");
         setEmail("");
         setMessage("");
