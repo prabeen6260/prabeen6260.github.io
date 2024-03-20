@@ -23,7 +23,7 @@ export const Contact = () => {
       message: message
     }
     try{
-      const response = await axios.post("http://localhost:3000/message",formData);
+      const response = await axios.post("https://backend-for-portfolio.uc.r.appspot.com/message",formData);
       if(response){
         setName("");
         setEmail("");
