@@ -30,7 +30,7 @@ export const MainPage = () => {
         </div>
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1Hs71Rb4jDGXfqMgnhI2P0a8-x4H678xs/view"
+          href="https://drive.google.com/file/d/1WobG8hwfYYYcjxEtwbCuKC470GLlQ9rm/view"
           className={styles.resume}
         >
           Download Resume
