@@ -16,11 +16,35 @@
     "source": "https://github.com/prabeen6260/react-calculator"
   },
   {
-    "title": "Task Management App",
-    "imageSrc": "projects/clock.jpg",
-    "description": "This is a task management app",
-    "skills": ["Javascript", "HTML", "CSS"],
-    "demo": "https://prabeen6260.github.io/Task-Management/",
-    "source": "https://github.com/prabeen6260/Task-Management"
+    "title": "MealMate",
+    "imageSrc": "projects/mealmate.png",
+    "description": "AI-powered meal planner! It tracks ingredients, suggests recipes and help reduce waste.",
+    "skills": ["React","Firebase","Raspberri Pi"],
+    "demo": "https://mealmate.biz",
+    "source": "https://github.com/prabeen6260/MealMate"
+  },
+  {
+    "title": "TruFight",
+    "imageSrc": "projects/trufight.png",
+    "description": "A combat multiplayer game made using P5.js",
+    "skills": ["P5.js","CSS"],
+    "demo": "https://prabeen6260.github.io/truFight",
+    "source": "https://github.com/prabeen6260/truFight"
+  },
+  {
+    "title": "SDG",
+    "imageSrc": "projects/sdg.png",
+    "description": "A fullstack website for sustainable development goals",
+    "skills": ["React.js","Node.js","MongoDB"],
+    "demo": "https://prabeen6260.github.io/sdg/",
+    "source": "https://github.com/prabeen6260/sdg"
+  },
+  {
+    "title": "AutoSale website",
+    "imageSrc": "projects/autosale.png",
+    "description": "A fullstack website for managing your vehicle sales",
+    "skills": ["PHP","MySQL","CSS"],
+    "demo": "",
+    "source": "https://github.com/prabeen6260/AutoSales-Website/"
   }
 ]
