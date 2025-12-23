@@ -9,7 +9,7 @@ export const MainPage = () => {
         <h2 className={styles.title}>Hello! I am Prabeen</h2>
         <p className={styles.text}>
           {" "}
-          I'm a full-stack developer and a sophmore computer science student.
+          I'm a software developer and a senior computer science student.
         </p>
         <div className={styles.socialIcons}>
           <a

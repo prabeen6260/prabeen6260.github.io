@@ -1,19 +1,27 @@
 [
   {
-    "title": "Drum Machine",
-    "imageSrc": "projects/drum.jpg",
-    "description": "This is a digital drum app made using React.js.",
-    "skills": ["React.js", "CSS", "HTML"],
-    "demo": "https://prabeen6260.github.io/drum-machine",
-    "source": "https://github.com/prabeen6260/drum-machine"
+    "title": "TruSwap",
+    "imageSrc": "projects/truswap.jpg",
+    "description": "Marketplace Platform for Truman Students. Built a full-stack marketplace enabling students to buy, sell, and rent items with group-based listings. Won First Place in the Fall 2025 ACM Codeathon.",
+    "skills": ["React", "Spring Boot", "MongoDB", "Google Cloud"],
+    "demo": "https://tru-swap.vercel.app/",
+    "source": "https://github.com/prabeen6260/TruSwap"
   },
   {
-    "title": "React Calculator",
-    "imageSrc": "projects/calculator.jpg",
-    "description": "This is a digital Calculator app  designed to provide users with a user-friendly interface for performing basic arithmetic operations",
-    "skills": ["React.js", "HTML", "CSS"],
-    "demo": "https://prabeen6260.github.io/react-calculator/",
-    "source": "https://github.com/prabeen6260/react-calculator"
+    "title": "Upkeep",
+    "imageSrc": "projects/upkeep.jpg",
+    "description": "Spring Boot microservice with Docker deployment. Built a containerized Spring Boot backend with RESTful APIs and MySQL. Integrated secure identity management using Auth0 and built a responsive React UI.",
+    "skills": ["Spring Boot", "Docker", "MySQL", "React", "Auth0"],
+    "demo": "https://prabeen6260.github.io/Upkeep/",
+    "source": "https://github.com/prabeen6260/Upkeep"
+  },
+  {
+    "title": "IoT Botnet Hunter (Network IDS)",
+    "imageSrc": "projects/iot.jpg",
+    "description": "ML-Based Cybersecurity System. Engineered a Random Forest classifier using 115 statistical behavioral features to detect Mirai and Bashlite botnets. Developed a real-time SOC dashboard using Streamlit and Plotly.",
+    "skills": ["Python", "Scikit-learn", "Pandas", "Streamlit"],
+    "demo": "",
+    "source": "https://github.com/prabeen6260/IOT-Botnet-Hunter"
   },
   {
     "title": "MealMate",
@@ -22,6 +30,14 @@
     "skills": ["React","Firebase","Raspberri Pi"],
     "demo": "https://mealmate.biz",
     "source": "https://github.com/prabeen6260/MealMate"
+  },
+  {
+    "title": "Test Automation Suite (Upkeep)",
+    "imageSrc": "projects/upkeepAuto.jpg",
+    "description": "Automated Quality Assurance Suite. Developed a modular automation framework using C#, Selenium WebDriver, and POM. Implemented White-box testing by integrating SQL validation into NUnit scripts.",
+    "skills": ["C#", "Selenium", "SQL", "NUnit"],
+    "demo": "",
+    "source": "https://github.com/prabeen6260/UpkeepAutomation"
   },
   {
     "title": "TruFight",
@@ -38,6 +54,22 @@
     "skills": ["React.js","Node.js","MongoDB"],
     "demo": "https://prabeen6260.github.io/sdg/",
     "source": "https://github.com/prabeen6260/sdg"
+  },
+  {
+    "title": "Drum Machine",
+    "imageSrc": "projects/drum.jpg",
+    "description": "This is a digital drum app made using React.js.",
+    "skills": ["React.js", "CSS", "HTML"],
+    "demo": "https://prabeen6260.github.io/drum-machine",
+    "source": "https://github.com/prabeen6260/drum-machine"
+  },
+  {
+    "title": "React Calculator",
+    "imageSrc": "projects/calculator.jpg",
+    "description": "This is a digital Calculator app  designed to provide users with a user-friendly interface for performing basic arithmetic operations",
+    "skills": ["React.js", "HTML", "CSS"],
+    "demo": "https://prabeen6260.github.io/react-calculator/",
+    "source": "https://github.com/prabeen6260/react-calculator"
   },
   {
     "title": "AutoSale website",

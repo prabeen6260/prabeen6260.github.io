@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cognitive-load-vr",
+    "title": "Cognitive Load-Aware VR Game",
+    "description": "Currently developing an interactive learning environment in Unity and C# for VR designed to measure cognitive load through integrated eye-tracking and body-tracking hardware. Spearheading a research initiative to create a novel dataset on cognitive load in neurodiverse learners, with the goal of analyzing the data and co-authoring a research paper for publication.",
+    "skills": ["Unity", "C#", "VR", "Eye-Tracking", "Data Analysis"],
+    "pdf": "pdfs/cognitive_load_aware.pdf",
+    "longDescription": "This research focuses on developing a Cognitive Load-Aware VR Game. By integrating eye-tracking and body-tracking hardware, we aim to measure cognitive load in real-time. The project involves creating a novel dataset on cognitive load in neurodiverse learners. The ultimate goal is to analyze this data to better understand learning processes and to co-author a research paper detailing these findings."
+  },
+  {
+    "id": "predictive-modeling-vr",
+    "title": "Predictive Modeling in Educational VR",
+    "description": "Co-authored and submitted a research paper on applying machine learning to predict student behavior in educational Virtual Reality (VR) environments. Developed and evaluated a suite of predictive models, achieving a 97.5% R2 in a Bayesian Ridge regression model for engagement scores and 84.9% accuracy in a Multinomial Regression classifier for identifying student engagement levels.",
+    "skills": ["Machine Learning", "VR", "Predictive Modeling", "Python"],
+    "pdf": "pdfs/predicitve_modelling.pdf",
+    "longDescription": "In this project, we applied machine learning techniques to predict student behavior within educational Virtual Reality environments. We developed and evaluated a suite of predictive models. Key achievements include achieving a 97.5% R2 in a Bayesian Ridge regression model for engagement scores and 84.9% accuracy in a Multinomial Regression classifier for identifying student engagement levels."
+  },
+  {
+    "id": "vr-mri-project",
+    "title": "VR MRI Project",
+    "description": "Executed an end-to-end medical imaging pipeline by preprocessing MRI datasets with FSL for image segmentation, training a deep learning model with nnU-Net, and developing a real-time 3D rendering interface in Unity for immersive analysis.",
+    "skills": ["Medical Imaging", "Deep Learning", "Unity", "nnU-Net", "FSL"],
+    "pdf": "pdfs/vista_mri.pdf",
+    "longDescription": "This project involved executing an end-to-end medical imaging pipeline. We started by preprocessing MRI datasets using FSL for image segmentation. Subsequently, we trained a deep learning model using nnU-Net. The final stage involved developing a real-time 3D rendering interface in Unity to allow for immersive analysis of the MRI data."
+  }
+]
